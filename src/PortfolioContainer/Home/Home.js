@@ -3,10 +3,14 @@ import Profile from './Profile/Profile'
 import Footer from './Footer/Footer'
 import './Home.css'
 
-export default function Home() {
+export default function Home(props) {
   return (
-    <div className='home-container'>
-        <Profile/>
+    <div className='home-container'
+    
+    >
+        <Profile
+        nRef={props.cRef}
+        />
         <Footer/>
     </div>
   )

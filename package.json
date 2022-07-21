@@ -1,6 +1,7 @@
 {
   "name": "client",
-  
+  "homepage": "https://himanshu0071.github.io/Resume",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {

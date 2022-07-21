@@ -1,9 +1,13 @@
 import React from 'react'
 import ContactForm from './ContactForm'
-export default function ContactMe() {
+export default function ContactMe({setRef}) {
   
     return (
-        <ContactForm/>
+        
+        <ContactForm
+        sRef={setRef}
+        
+        />
    
   )
 }

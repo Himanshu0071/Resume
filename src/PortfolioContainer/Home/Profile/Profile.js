@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 import React from 'react'
 
 
-export default function Profile() {
+export default function Profile({nRef}) {
   return (
     <div className="profile-container">
         <div className="profile-parent">
@@ -63,7 +63,18 @@ export default function Profile() {
                 </span>
             </div>
             <div className="profile-options">
-                <button className="btn primary-btn">
+                <button className="btn primary-btn"
+                onClick={
+                    ()=>{
+                      
+                    const section = document.querySelector("#contactContainer");
+                    section.scrollIntoView({
+                        behavior:'smooth',
+                        block:'start'
+                    })
+                    }
+                }
+                >
                     {""}
                     Hire Me{""}
                 </button>
