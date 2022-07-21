@@ -1,0 +1,45 @@
+.about-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: beige;
+    margin: 120px;
+}
+
+.about-left{
+    background-image: url('../../assets/AboutMe/pic.jpg');
+    width: 1600px;
+    height: 700px;
+    background-size: cover;
+
+   
+}
+
+.about-right{
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+.about-right-top{
+padding-bottom: 50px;
+ text-align: left;
+}
+.about-right-middle{
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.about-right-bottom{
+    padding-bottom: 50px;
+    text-align: left;
+    
+}
+.heading{
+    font-size: 22px;
+    align-items: center;
+
+}
+.dot1{
+    text-align: left;
+}

@@ -9,7 +9,7 @@ export default function Profile() {
         <div className="profile-parent">
             <div className="profile-detials">
                 <div className="colz">
-                    <div className="colz">
+                    <div className="colz-icon">
                     <a href="https://www.facebook.com"> 
                         <i className="fa fa-facebook-square"/>
                         </a>
@@ -44,11 +44,13 @@ export default function Profile() {
                         loop={Infinity}
                     
                         steps={[
-                            "Enthusistic Dev 🔴",
+                            "Modern Websites  🔴",
                             1000,
-                            "Front End Developer 💻",
+                            "Front End  💻",
                             1000,
                             "Bootstrap 🧑‍💻",
+                            1000,
+                            "ReactJs 🕸️",
                             1000,
                             "Git & GitHub 🐈‍⬛",
                             1000,
