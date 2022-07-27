@@ -56,7 +56,7 @@ export default function Profile({nRef}) {
                         ]}/>
                    </h1>
                    <span className="profile-role-tagline">
-                    Knack of building applications with front and back end operations.
+                   Great web design is more than pretty pictures..
                     </span>
                 </span>
             </div>

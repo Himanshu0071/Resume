@@ -39,7 +39,8 @@
 .profile-role-tagline{
     font-size: 19px;
     margin: 5px 0 0 0;
-    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
 }
 
 .profile-options .highlighted-btn{
