@@ -16,15 +16,15 @@ export default function AboutMe() {
                
             </div>
             <div className='about-right'>
-                <div className='about-right-top '>Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.</div>
+                <div className='about-right-top '>A Front-end web developer with good skills in JavaScript, ReactJs, Git and Github, CSS. A graduate of BCA from GD Goenka University . Strongly professional with a willing to be an asset for an organization.</div>
                 <div className='about-right-middle'>
-                    <div className='heading'>Here are a Few Highlights:</div>
-                    <div className='do1'>Full Stack web and mobile development</div>
-                    <div className='do1'>Interactive Front End as per the design</div>
-                    <div className='do1'>React and React Native</div>
+                    <div className='heading'>Skills:</div>
+                    <div className='do1'>HTML</div>
+                    <div className='do1'>CSS</div>
+                    <div className='do1'>ReactJS</div>
                     <div className='do1'>Redux for State Mnanagement</div>
                     <div className='do1'>Building REST API</div>
-                    <div className='do1'>Managing database</div>
+                    <div className='do1'>Git and Github</div>
                 </div>
                 <div className='about-right-bottom'>
                 <div className="profile-options">

@@ -13,20 +13,17 @@ export default function ContactForm({ sRef }) {
             {" "}
             Get in Touch📧
             <div className="colz-icon">
-              <a href="https://www.facebook.com">
+              <a href="https://www.facebook.com/profile.php?id=100084055715939">
                 <i className="fa fa-facebook-square" />
-              </a>
-              <a href="https://www.google.co.in/">
-                <i className="fa fa-google-plus-square" />
               </a>
               <a href="https://www.instagram.com/">
                 <i className="fa fa-instagram" />
               </a>
-              <a href="https://www.youtube.com/">
-                <i className="fa fa-youtube-square" />
-              </a>
-              <a href="https://twitter.com/login">
-                <i className="fa fa-twitter" />
+              <a href="https://github.com/Himanshu0071"> 
+                    <i class="fa fa-github"></i>
+                        </a>
+                    <a href="https://twitter.com/Himanshu0071ss"> 
+                        <i className="fa fa-twitter"/>
               </a>
             </div>
           </div>

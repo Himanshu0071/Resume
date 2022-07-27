@@ -2,20 +2,19 @@ import './App.css';
 import AboutMe from './PortfolioContainer/AboutMe/AboutMe';
 import Home from './PortfolioContainer/Home/Home';
 import ContactMe from './PortfolioContainer/ContactMe/ContactMe';
-import { createRef } from 'react';
-
+import {Route, Switch} from 'react-router-dom'
 function App() {
-  const contactRef= createRef()
-
   return (
     <div className="App">
       <Home
-        cRef={contactRef}
+
       />
       <AboutMe/>
       <ContactMe
-      setRef={contactRef}
       />
+      <div >
+
+      </div>
     </div>
   );
 }
