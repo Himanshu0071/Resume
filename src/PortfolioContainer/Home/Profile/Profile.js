@@ -55,7 +55,7 @@ export default function Profile({nRef}) {
 
                         ]}/>
                    </h1>
-                   <span className="profile-role-tagline">
+                   <span className="profile-role-tagline" >
                    Great web design is more than pretty pictures..
                     </span>
                 </span>
@@ -76,7 +76,7 @@ export default function Profile({nRef}) {
                     {""}
                     Hire Me{""}
                 </button>
-                <a href="Resume.pdf" download={'himanshu Resume.pdf'}>
+                <a href="/Resume.pdf" download={'himanshu Resume.pdf'}>
                     <button className="btn highlighted-btn">Get Resume</button>
                 </a>
             </div>
