@@ -20,7 +20,7 @@ export default function ContactForm({ sRef }) {
                 <i className="fa fa-instagram" />
               </a>
               <a href="https://github.com/Himanshu0071"> 
-                    <i class="fa fa-github"></i>
+                    <i className="fa fa-github"></i>
                         </a>
                     <a href="https://twitter.com/Himanshu0071ss"> 
                         <i className="fa fa-twitter"/>
