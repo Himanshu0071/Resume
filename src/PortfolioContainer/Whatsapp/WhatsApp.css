@@ -12,3 +12,10 @@
     text-decoration: none;
     color: rgb(23, 128, 93);
 }
+@media screen and (max-width:1110px) {
+    .container{
+        position: fixed;
+        bottom: 20px;
+        left:230px
+    }
+}
