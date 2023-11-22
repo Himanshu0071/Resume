@@ -13,8 +13,8 @@ export default function ContactForm({ sRef }) {
             {" "}
             Get in Touch📧
             <div className="colz-icon">
-              <a href="https://www.facebook.com/profile.php?id=100084055715939">
-                <i className="fa fa-facebook-square" />
+              <a href="https://www.linkedin.com/in/himanshu-sharma-10a8871a9">
+                <i className="fa fa-linkedin" />
               </a>
               <a href="https://www.instagram.com/">
                 <i className="fa fa-instagram" />
@@ -22,7 +22,7 @@ export default function ContactForm({ sRef }) {
               <a href="https://github.com/Himanshu0071"> 
                     <i className="fa fa-github"></i>
                         </a>
-                    <a href="https://twitter.com/Himanshu0071ss"> 
+                    <a href="https://twitter.com/HimanshuSH2001"> 
                         <i className="fa fa-twitter"/>
               </a>
             </div>
