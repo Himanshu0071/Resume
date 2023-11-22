@@ -16,7 +16,9 @@ export default function AboutMe() {
                
             </div>
             <div className='about-right'>
-                <div className='about-right-top '>A Front-end web developer with good skills in JavaScript, ReactJs, Git and Github, CSS. A graduate of BCA from GD Goenka University . Strongly professional with a willing to be an asset for an organization.</div>
+                <div className='about-right-top '>My technical proficiency extends to utilizing state management libraries, integrating RESTful APIs, and employing best practices in code optimization and maintenance. I am well-versed in debugging and problem-solving, ensuring smooth functionality throughout the development lifecycle. Additionally, I stay abreast of industry trends and emerging technologies to continually enhance my skill set.
+                Over the past year, I have honed my skills in React.js through various projects, enabling me to develop dynamic and responsive user interfaces. My experience includes collaborating with cross-functional teams to design and implement web applications that meet both functional and aesthetic requirements. I have successfully delivered high-quality code on time and have a keen eye for identifying and resolving potential issues.
+                </div>
                 <div className='about-right-middle'>
                     <div className='heading'>Skills:</div>
                     <div className='do1'>HTML</div>

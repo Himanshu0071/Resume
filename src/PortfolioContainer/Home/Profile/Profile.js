@@ -10,8 +10,8 @@ export default function Profile({nRef}) {
             <div className="profile-detials">
                 <div className="colz">
                     <div className="colz-icon">
-                    <a href="https://www.facebook.com/profile.php?id=100084055715939"> 
-                        <i className="fa fa-facebook-square"/>
+                    <a href="https://www.linkedin.com/in/himanshu-sharma-10a8871a9/"> 
+                        <i class="fa fa-linkedin"/>
                         </a>
                     
                     <a href="https://www.instagram.com/himanshu00.71/"> 
@@ -20,7 +20,7 @@ export default function Profile({nRef}) {
                     <a href="https://github.com/Himanshu0071"> 
                     <i className="fa fa-github"></i>
                         </a>
-                    <a href="https://twitter.com/Himanshu0071ss"> 
+                    <a href="https://twitter.com/HimanshuSH2001"> 
                         <i className="fa fa-twitter"/>
                         </a>
 
