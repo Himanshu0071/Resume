@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.ffb1dddb.css",
+    "main.css": "/Resume/static/css/main.0536ed0d.css",
     "main.js": "/Resume/static/js/main.ba338819.js",
     "static/media/pic.jpeg": "/Resume/static/media/pic.8394447d15f0da25f45f.jpeg",
     "static/media/Poppins-Thin.ttf": "/Resume/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -11,13 +11,13 @@
     "static/media/Poppins-Bold.ttf": "/Resume/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/Resume/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/profile.jpeg": "/Resume/static/media/profile.0a0b939b9b58d33edde9.jpeg",
-    "static/media/bg.jpg": "/Resume/static/media/bg.82cc6d372afd8b0113c5.jpg",
+    "static/media/contactUs.jpeg": "/Resume/static/media/contactUs.9cd804ae5ebcf1c79e64.jpeg",
     "index.html": "/Resume/index.html",
-    "main.ffb1dddb.css.map": "/Resume/static/css/main.ffb1dddb.css.map",
+    "main.0536ed0d.css.map": "/Resume/static/css/main.0536ed0d.css.map",
     "main.ba338819.js.map": "/Resume/static/js/main.ba338819.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffb1dddb.css",
+    "static/css/main.0536ed0d.css",
     "static/js/main.ba338819.js"
   ]
 }
