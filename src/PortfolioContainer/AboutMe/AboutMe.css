@@ -9,7 +9,7 @@
 .about-left{
     background-image: url('../../assets/AboutMe/pic.jpeg');
     width: 4600px;
-    height: 700px;
+    /* height: 700px; */
     background-size: cover;
 
    
