@@ -147,3 +147,17 @@
         background-size: cover;
     }
 }
+@media screen and (max-width: 767px){
+    .contact-card{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+        overflow-x: hidden;
+    }
+    .get-in-touch{
+        width: 300px ;
+        height: 220px;
+        /* margin-left: 6px; */
+        background-size: cover;
+    }
+}

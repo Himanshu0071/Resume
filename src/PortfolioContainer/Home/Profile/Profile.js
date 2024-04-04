@@ -42,9 +42,10 @@ export default function Profile({nRef}) {
                         loop={Infinity}
                     
                         steps={[
-                            "Modern Websites  🔴",
-                            1000,
+                           
                             "Front End  💻",
+                            1000,
+                            "Javascript 🌏",
                             1000,
                             "Bootstrap 🧑‍💻",
                             1000,
