@@ -30,7 +30,18 @@ export default function AboutMe() {
                 </div>
                 <div className='about-right-bottom'>
                 <div className="profile-options">
-                <button className="btn primary-btn">
+                <button className="btn primary-btn"
+                 onClick={
+                    ()=>{
+                      
+                    const section = document.querySelector("#contactContainer");
+                    section.scrollIntoView({
+                        behavior:'smooth',
+                        block:'start'
+                    })
+                    }
+                }
+                >
                     {""}
                     Hire Me{""}
                 </button>

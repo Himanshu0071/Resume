@@ -1,9 +1,11 @@
 import React from "react";
 import "./ContactForm.css";
-import Bounce from "react-reveal/Bounce";
+import { Zoom } from "react-reveal";
+// import Bounce from "react-reveal/Bounce";
+// import Zoom from 'react-reveal/Zoom';
 export default function ContactForm({ sRef }) {
   return (
-    <Bounce left>
+    <Zoom>
       <div className="contact-container" id="contactContainer">
         <div className="about-text">
           <h2>Contact Us</h2>
@@ -12,6 +14,7 @@ export default function ContactForm({ sRef }) {
           <div className="get-in-touch">
             {" "}
             Get in Touch📧
+            <div className="colz">
             <div className="colz-icon">
               <a href="https://www.linkedin.com/in/himanshu-sharma-10a8871a9">
                 <i className="fa fa-linkedin" />
@@ -25,6 +28,7 @@ export default function ContactForm({ sRef }) {
                     <a href="https://twitter.com/HimanshuSH2001"> 
                         <i className="fa fa-twitter"/>
               </a>
+            </div>
             </div>
           </div>
 
@@ -40,7 +44,7 @@ export default function ContactForm({ sRef }) {
                 <label>Your email: </label>
 
                 <input
-                  className="email"
+                  className="input"
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -58,7 +62,7 @@ export default function ContactForm({ sRef }) {
                 <label>Your message:</label>
 
                 <textarea
-                  className="email"
+                  className="input"
                   name="message"
                   placeholder="Your message"
                   style={{
@@ -66,13 +70,24 @@ export default function ContactForm({ sRef }) {
                   }}
                 ></textarea>
               </div>
-              <button className="button" type="submit">
+              {/* <button className="button" type="submit">
                 Send
-              </button>
+              </button> */}
+              <button className="button-send">
+  <div className="svg-wrapper-1">
+    <div className="svg-wrapper">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+      </svg>
+    </div>
+  </div>
+  <span>Send</span>
+</button>
             </form>
           </div>
         </div>
       </div>
-    </Bounce>
+      </Zoom>
   );
 }

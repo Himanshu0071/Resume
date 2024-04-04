@@ -3,12 +3,12 @@
     align-items: center;
     justify-content: space-between;
     background: beige;
-    margin: 120px;
+    padding: 50px;
 }
 
 .about-left{
-    background-image: url('../../assets/AboutMe/pic.jpg');
-    width: 1600px;
+    background-image: url('../../assets/AboutMe/pic.jpeg');
+    width: 4600px;
     height: 700px;
     background-size: cover;
 
@@ -42,6 +42,9 @@ padding-bottom: 50px;
 }
 .dot1{
     text-align: left;
+}
+.about-text{
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1110px){

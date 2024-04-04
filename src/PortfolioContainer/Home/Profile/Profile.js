@@ -1,7 +1,7 @@
 import "./Profile.css"
 import Typical from 'react-typical'
 import React from 'react'
-
+import { Bounce } from "react-reveal"
 
 export default function Profile({nRef}) {
   return (
@@ -56,7 +56,7 @@ export default function Profile({nRef}) {
                         ]}/>
                    </h1>
                    <span className="profile-role-tagline" >
-                   Great web design is more than pretty pictures..
+                   Creating websites is my passion!
                     </span>
                 </span>
             </div>
@@ -82,7 +82,7 @@ export default function Profile({nRef}) {
             </div>
             </div>
             <div className="profile-picture">
-            <div className="profile-picture-background"></div>
+          <Bounce><div className="profile-picture-background"></div></Bounce>  
             </div>
         </div>
     </div>
